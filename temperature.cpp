@@ -70,8 +70,6 @@ void cli(double value, char unit)
 int main(int argc, char const *argv[])
 {   
     string program_name(argv[0]);
-    double temperature_int {0};
-    char unit {'C'};
 
     if (argc != 3)
         usage(program_name);
